@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		13D5EF6C2B2E2A9800283CF1 /* volt_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D5EF6B2B2E2A9800283CF1 /* volt_iosApp.swift */; };
-		13D5EF6E2B2E2A9800283CF1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D5EF6D2B2E2A9800283CF1 /* ContentView.swift */; };
 		13D5EF702B2E2A9900283CF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13D5EF6F2B2E2A9900283CF1 /* Assets.xcassets */; };
 		13D5EF732B2E2A9900283CF1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13D5EF722B2E2A9900283CF1 /* Preview Assets.xcassets */; };
 		13D5EF7D2B2E2A9900283CF1 /* volt_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D5EF7C2B2E2A9900283CF1 /* volt_iosTests.swift */; };
 		13D5EF872B2E2A9900283CF1 /* volt_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D5EF862B2E2A9900283CF1 /* volt_iosUITests.swift */; };
 		13D5EF892B2E2A9900283CF1 /* volt_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D5EF882B2E2A9900283CF1 /* volt_iosUITestsLaunchTests.swift */; };
+		13D5EF982B2E2BDC00283CF1 /* TabTrayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D5EF972B2E2BDC00283CF1 /* TabTrayView.swift */; };
+		13D5EF9E2B2E2FCA00283CF1 /* TabTraySearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D5EF9D2B2E2FCA00283CF1 /* TabTraySearchBarView.swift */; };
+		13D5EFA02B2E30CB00283CF1 /* TabTrayToolBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D5EF9F2B2E30CB00283CF1 /* TabTrayToolBarView.swift */; };
+		13D5EFA22B2E31C400283CF1 /* TabTrayContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D5EFA12B2E31C400283CF1 /* TabTrayContentView.swift */; };
+		13D5EFA42B2E32BF00283CF1 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D5EFA32B2E32BF00283CF1 /* Tab.swift */; };
+		13D5EFA62B2E344500283CF1 /* TabManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D5EFA52B2E344500283CF1 /* TabManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,6 @@
 /* Begin PBXFileReference section */
 		13D5EF682B2E2A9800283CF1 /* volt-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "volt-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13D5EF6B2B2E2A9800283CF1 /* volt_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = volt_iosApp.swift; sourceTree = "<group>"; };
-		13D5EF6D2B2E2A9800283CF1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		13D5EF6F2B2E2A9900283CF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13D5EF722B2E2A9900283CF1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		13D5EF782B2E2A9900283CF1 /* volt-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "volt-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +48,12 @@
 		13D5EF822B2E2A9900283CF1 /* volt-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "volt-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13D5EF862B2E2A9900283CF1 /* volt_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = volt_iosUITests.swift; sourceTree = "<group>"; };
 		13D5EF882B2E2A9900283CF1 /* volt_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = volt_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		13D5EF972B2E2BDC00283CF1 /* TabTrayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabTrayView.swift; sourceTree = "<group>"; };
+		13D5EF9D2B2E2FCA00283CF1 /* TabTraySearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabTraySearchBarView.swift; sourceTree = "<group>"; };
+		13D5EF9F2B2E30CB00283CF1 /* TabTrayToolBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabTrayToolBarView.swift; sourceTree = "<group>"; };
+		13D5EFA12B2E31C400283CF1 /* TabTrayContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabTrayContentView.swift; sourceTree = "<group>"; };
+		13D5EFA32B2E32BF00283CF1 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		13D5EFA52B2E344500283CF1 /* TabManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +104,11 @@
 		13D5EF6A2B2E2A9800283CF1 /* volt-ios */ = {
 			isa = PBXGroup;
 			children = (
-				13D5EF6B2B2E2A9800283CF1 /* volt_iosApp.swift */,
-				13D5EF6D2B2E2A9800283CF1 /* ContentView.swift */,
 				13D5EF6F2B2E2A9900283CF1 /* Assets.xcassets */,
+				13D5EF6B2B2E2A9800283CF1 /* volt_iosApp.swift */,
+				13D5EF952B2E2B6700283CF1 /* Views */,
+				13D5EF962B2E2B6D00283CF1 /* Models */,
+				13D5EF992B2E2EE200283CF1 /* Extensions */,
 				13D5EF712B2E2A9900283CF1 /* Preview Content */,
 			);
 			path = "volt-ios";
@@ -125,6 +137,41 @@
 				13D5EF882B2E2A9900283CF1 /* volt_iosUITestsLaunchTests.swift */,
 			);
 			path = "volt-iosUITests";
+			sourceTree = "<group>";
+		};
+		13D5EF952B2E2B6700283CF1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				13D5EF9C2B2E2F9900283CF1 /* TabTray */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		13D5EF962B2E2B6D00283CF1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				13D5EFA32B2E32BF00283CF1 /* Tab.swift */,
+				13D5EFA52B2E344500283CF1 /* TabManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		13D5EF992B2E2EE200283CF1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		13D5EF9C2B2E2F9900283CF1 /* TabTray */ = {
+			isa = PBXGroup;
+			children = (
+				13D5EF972B2E2BDC00283CF1 /* TabTrayView.swift */,
+				13D5EF9D2B2E2FCA00283CF1 /* TabTraySearchBarView.swift */,
+				13D5EFA12B2E31C400283CF1 /* TabTrayContentView.swift */,
+				13D5EF9F2B2E30CB00283CF1 /* TabTrayToolBarView.swift */,
+			);
+			path = TabTray;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +304,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13D5EF6E2B2E2A9800283CF1 /* ContentView.swift in Sources */,
+				13D5EFA22B2E31C400283CF1 /* TabTrayContentView.swift in Sources */,
+				13D5EFA02B2E30CB00283CF1 /* TabTrayToolBarView.swift in Sources */,
+				13D5EF982B2E2BDC00283CF1 /* TabTrayView.swift in Sources */,
+				13D5EFA62B2E344500283CF1 /* TabManager.swift in Sources */,
+				13D5EFA42B2E32BF00283CF1 /* Tab.swift in Sources */,
+				13D5EF9E2B2E2FCA00283CF1 /* TabTraySearchBarView.swift in Sources */,
 				13D5EF6C2B2E2A9800283CF1 /* volt_iosApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
